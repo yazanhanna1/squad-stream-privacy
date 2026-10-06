@@ -4,7 +4,7 @@ title: Squad Stream Privacy Policy
 
 # Squad Stream privacy policy
 
-Last updated: October 5, 2026.
+Last updated: October 6, 2026.
 
 Squad Stream lets you view and organize multiple Twitch broadcasts together. This policy describes the extension's behavior.
 
@@ -12,7 +12,7 @@ Squad Stream lets you view and organize multiple Twitch broadcasts together. Thi
 
 The extension reads the current Twitch channel route and collaboration information to identify broadcasts and Stream Together participants. It processes channel names, participant names, and your selected lineup, channel order, chat selection and layout.
 
-Preferences are stored using the browser's local extension storage. The extension does not synchronize them to a developer service. Other open Squad Stream viewers in the same browser profile can follow changes to these settings.
+Starting with version 1.0.1, viewing preferences exist only in memory for the current viewer session. Each opening starts with the current broadcaster and any detected Stream Together participants. The extension does not save or restore lineups, channel order, chat selection, or layout across sessions, and separate viewers do not synchronize their settings.
 
 ## Requests to Twitch
 
@@ -26,7 +26,7 @@ The extension has no developer-operated collection server, analytics SDK, or adv
 
 ## Retention and control
 
-Local settings remain until you change or delete them, clear the extension's stored data, or uninstall the extension. Data handled by Twitch is governed by Twitch's own policies; uninstalling this extension does not delete information held by Twitch.
+Current session settings are discarded when you close the viewer or leave the page. Version 1.0.0 stored preferences locally; version 1.0.1 does not access or restore those settings. Any legacy stored settings can be removed by clearing the extension's stored data or uninstalling it. Data handled by Twitch is governed by Twitch's own policies; uninstalling this extension does not delete information held by Twitch.
 
 ## Changes and contact
 
